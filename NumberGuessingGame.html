@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Guessing Game</title>
+	<meta charset="utf-8">
+	<!-- Link to my own styles-->
+	<link rel="stylesheet" type="text/css" href="NumberGuessing.css">
+</head>
+
+<body>
+
+	<h1>Number Guessing Game</h1>
+	<p>We have selected a randon number between 1 and 100.See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+	<label>Enter a guess :</label>
+	<input type="text" name="text">
+	<button class="SubmitBtn">Submit guess</button>
+	<p class="userGuesses" hidden="">Previous guesses :</p>
+	<p class="feedBack"></p>
+	<p class="userGuide"></p>
+	<button class="newGameBtn" hidden="">Start new game !</button>
+
+
+	<!-- Link to my own scripts-->
+	<script src="scripts/jquery-3.2.1.min.js"></script>
+	<script src="NumberGuessing.js"></script>
+</body>
+
+</html>
